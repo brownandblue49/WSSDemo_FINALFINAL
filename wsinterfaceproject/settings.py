@@ -42,8 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'wsinterfaceproject',
-    'bootstrap',
-]
+   ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -127,7 +126,7 @@ STATIC_URL = '/static/'
  
 STATICFILES_DIRS = (
     
-    '/home/site/wwwroot/files',
+    '/home/site/wwwroot/files/',
 )
  
 STATIC_ROOT = 'home/site/wwwroot/static/'
