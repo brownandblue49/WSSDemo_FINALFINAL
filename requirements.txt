@@ -1,4 +1,4 @@
-azure-storage-blob
+azure-storage-blob==2.1.0
 Pillow
 NumPy
 django==2.1.7
