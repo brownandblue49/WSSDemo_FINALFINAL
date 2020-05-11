@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 urlpatterns = [
+    url(r^'static/(?P<Path>.*)$', serve,{'document_root':settings.STATIC_ROOT}),
     url(r'^admin/', admin.site.urls),
   #  url(r'^$', views.button),  
     url(r'^$', views.home, name="home"), 
