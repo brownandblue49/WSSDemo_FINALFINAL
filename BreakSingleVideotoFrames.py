@@ -74,10 +74,10 @@ def uploadtoblob(filepath):
 def main():
    # extractFrames('D:\\Demo & Utilities\\Worker Safety\\Unattended Hazardeous Object\\Frames Generated'
    #               )
-   folder_path = '.\\FramesGenerated\\'
-   for file_name in listdir(folder_path):
-           if file_name.endswith('.jpg'):  
-               os.remove(folder_path + file_name)
+   #folder_path = '.\\FramesGenerated\\'
+   #for file_name in listdir(folder_path):
+   #        if file_name.endswith('.jpg'):  
+   #            os.remove(folder_path + file_name)
 
    extractFrames('./FramesGenerated' , './Extinguisher.mp4' )
    #uploadtoblob('./FramesGenerated')
