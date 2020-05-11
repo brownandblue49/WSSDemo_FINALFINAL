@@ -129,5 +129,5 @@ STATICFILES_DIRS = (
     '/home/site/wwwroot/files',
 )
  
-STATIC_ROOT = '/site/wwwroot/static/'
+STATIC_ROOT = 'home/site/wwwroot/static/'
 
