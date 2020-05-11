@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'wsinterfaceproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join('/home/site/wwwroot/', 'db.sqlite3'),
     }
 }
 
@@ -123,8 +123,8 @@ STATIC_URL = '/static/'
  
 STATICFILES_DIRS = (
     
-    os.path.join(BASE_DIR, 'files'),
+    '/home/site/wwwroot/files',
 )
  
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/home/site/wwwroot/static'
 
